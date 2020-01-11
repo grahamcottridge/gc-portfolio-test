@@ -1,0 +1,22 @@
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+
+  .title {
+    margin-top: 0px;
+  }
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
